@@ -25,10 +25,10 @@ class CD extends MemoriaS {
 	 * método cada vez que um objeto novo é criado, então é apropriado para
 	 * qualquer inicialização que o objeto possa vir a precisar antes de ser usado.
 	 *
-	 * Porém a sobrecarga e polimorfismo no PHP se apresentam de maneira diferente
+	 * Porém a sobrecarga no PHP se apresenta de maneira diferente
 	 * já que simplemente duplicar o método com parâmetros diferentes irá gerar um
 	 * erro fatal do tipo 'Fatal error: Cannot redeclare CD::__construct()'
-	 * Sobrecarga e plomorfismo são implementados no PHP num único método que contém
+	 * Sobrecarga é implementado no PHP num único método que contém
 	 * parâmetros OPCIONAIS e DEFAULT, assim, caso um parâmentro seja passado ele será
 	 * usado, caso contrário será usado o valor default.
 	 *
